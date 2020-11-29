@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<script>
+function addUser(){
+    var id = document.getElementById("username").value;
+    localStorage.setItem("id",id);
+    window.location = "chat.html";
+}
+</script>
+<title>letschat.com</title>
+    </head>
+    <body>
+        <center>
+        <div class="container">
+            <h1 class="header" id="head">letschat!</h1>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11" id="login">
+            <img src="free_sample_by_wix.jpeg" class="logo">
+            <h3>chat with your friends around the world!</h3>
+            <br>
+            <div class="form-group">
+                <label >User Name:</label>
+                <input type="text" placeholder="your username"  id="username">
+              </div>
+              <br>
+              <button class="btn btn-warning" onclick="addUser()">login</button>
+        </div>
+        </center>
+    </body>
+</html>

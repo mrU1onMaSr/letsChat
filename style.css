@@ -1,0 +1,18 @@
+body{
+    background-color: firebrick;
+}
+#head{
+    font-family: 'Shadows Into Light', cursive;
+}
+h3{
+    font-family: 'Patrick Hand', cursive;
+}
+#login{
+    float: none;
+    background-color: ghostwhite;
+    border-radius: 12px;
+    padding: 25px;
+}
+img{
+    border-radius: 30;
+}
